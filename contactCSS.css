@@ -1,0 +1,51 @@
+.navbar-brand {
+      font-family: "Brush Script MT", cursive;
+      font-weight: bold;
+      font-size: 40px;
+}
+.navbar-nav .nav-link {
+      font-family: "Lucida Console", "Courier New", monospace;
+      font-weight: bold;
+      font-size: 20px;
+}
+.navbar {
+      background-color:  none/* Dark background color */
+}
+.navbar-dark .navbar-toggler-icon {
+      background-color: #fff; /* Toggler icon color */
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+/* You can add custom CSS styles here */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 50%;
+  background-color: rgb(176, 196, 222);
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}

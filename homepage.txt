@@ -1,0 +1,48 @@
+<!--Ishmal Ijaz-->
+<!--251687284-->
+<!--Assignment 1-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> HomePage | My Portfolio </title>
+<link rel="icon" type="image/x-icon" href="C:\Users\Ishmal\Desktop\Project\assets\logo.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="homeCSS.css">
+</head>
+
+<body>
+<header>
+         <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#" style= "color: rgb(127, 255, 212) ;"><h4>Noisli</h4></a> 
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./howitworks.html" style="color: rgb(127, 255, 212) ;">How it Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./feature.html" style="color: rgb(127, 255, 212) ;">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./pricing.html" style="color: rgb(127, 255, 212) ;">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./Login.html" style="color: rgb(127, 255, 212) ;">Log In</a>
+      </li>
+      <div class="signupbtn">
+	 <a href="./SignUp.html">Sign Up</a><br><br>
+    </div>
+
+    </ul>
+  </div>
+</nav>
+</header>

@@ -1,0 +1,78 @@
+.navbar-brand {
+      font-family: "Brush Script MT", cursive;
+      font-weight: bold;
+      font-size: 40px;
+}
+.navbar-nav .nav-link {
+      font-family: "Lucida Console", "Courier New", monospace;
+      font-weight: bold;
+      font-size: 20px;
+}
+.navbar {
+      background-color: none /* Dark background color */
+}
+.navbar-dark .navbar-toggler-icon {
+      background-color: #fff; /* Toggler icon color */
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+
+
+/* Styling for the white section */
+.white-section2 {
+    padding: 40px 0; /* Adjust padding as needed */
+}
+
+/* Container for the white section content */
+.container3 {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of elements */
+    justify-content: space-between; /* Space content evenly between image and text */
+    align-items: center; /* Vertically center content */
+    max-width: 1200px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add some spacing to the sides */
+}
+
+/* Styling for the text */
+.text3 {
+    flex: 1; /* Allow the text to take up space */
+    text-align: left; /* Align text to the left */
+    border: 3px solid #000; /* Border width, style, and color */
+    padding: 20px; /* Optional: Add padding to the container */
+}
+.text3 h2{
+    font-family: "Copperplate", Fantasy;
+}
+
+.text3 p {
+    font-size: 15px; /* Adjust text font size as needed */
+    color: rgb(0, 0, 0) /* Text color */
+}
+
+/* Styling for the image */
+.image3 {
+    flex: 1; /* Allow the image to take up space */
+    margin-right: 20px; /* Add spacing between text and image */
+}
+
+.image3 img {
+    max-width: 75%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    padding-left:60px;
+}
+/* styles.css */
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .container3 {
+    padding: 0 15px;
+  }
+}
+
+
